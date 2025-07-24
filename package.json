@@ -1,5 +1,5 @@
 {
-  "name": "learn-vue3",
+  "name": "learn-vue",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,13 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lockr": "^0.9.0-beta.0",
-    "vue": "^3.2.37"
+    "@vueuse/core": "^13.5.0",
+    "lockr": "0.8.5",
+    "pinia": "3.0.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^23.0.0",
-    "@vitejs/plugin-vue": "^3.1.0",
-    "@vue-macros/reactivity-transform": "^0.2.4",
-    "vite": "^3.1.0"
+    "@rollup/plugin-commonjs": "28.0.6",
+    "@vitejs/plugin-vue": "6.0.0",
+    "@vue-macros/reactivity-transform": "1.1.6",
+    "vite": "7.0.5"
   }
 }
