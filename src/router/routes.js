@@ -41,6 +41,26 @@ export default [
     component: () => import('@/pages/line-graph/ConnectLine.vue')
   },
   {
+    path: '/ripple',
+    component: () => import('@/pages/animation/Ripple.vue')
+  },
+  {
+    path: '/glow',
+    component: () => import('@/pages/animation/Glow.vue')
+  },
+  {
+    path: '/glow-output',
+    component: () => import('@/pages/animation/GlowOutput.vue')
+  },
+  {
+    path: '/type-text',
+    component: () => import('@/pages/animation/TypeText.vue')
+  },
+  {
+    path: '/chat',
+    component: () => import('@/pages/animation/TestChatMarkdown.vue')
+  },
+  {
     path: '/error',
     component: () => import('@/pages/ErrorPage.vue')
   },
