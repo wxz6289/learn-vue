@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@import 'tailwindcss-primeui';
+
+@layer base {
+  html,
+  body,
+  #app {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family:
+      'Segoe UI',
+      system-ui,
+      -apple-system,
+      sans-serif;
+    @apply min-h-screen bg-gradient-to-br from-indigo-50 via-white to-slate-50 text-surface-900;
+  }
+}
