@@ -1,0 +1,1 @@
+vsc 插件 es6-string-html
